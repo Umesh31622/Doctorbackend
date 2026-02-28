@@ -83,7 +83,7 @@ app.get('/api/health', (req, res) => {
 /* ================================
    ✅ SERVER START
 ================================ */
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 9004;
 
 app.listen(PORT, () => {
   console.log(`\n🚀 DocDoor Backend running on http://localhost:${PORT}`);
